@@ -118,7 +118,7 @@ end)
 local TSB = Window:NewTab("Strongest Battlegrounds")
 local TSBsection = TSB:NewSection("Strongest Battlegrounds")
 
-TSBSection:NewButton("Xtrey10x Hub", "The Strongest Battlegrounds Script", function()
+Section:NewButton("Xtrey10x Hub", "The Strongest Battlegrounds Script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/saitama"))()
     DiscordLib:Notification("Notification", "Xtrey10x Hub Executed", "Okay!")
 end)
