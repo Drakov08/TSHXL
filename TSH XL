@@ -1,0 +1,51 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("TSH XL", "Synapse")
+
+-- BF
+local BF = Window:NewTab("Blox Fruits")
+local Section = BF:NewSection("Blox Fruits")
+
+
+Section:NewButton("MTriet Hub", "BF Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+    DiscordLib:Notification("Notification", "MTriet Hub Executed", "Okay!")
+end)
+
+Section:NewButton("Vector Hub", "Blox Fruits Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
+    DiscordLib:Notification("Notification", "Vector Hub Executed", "Okay!")
+end)
+
+Section:NewButton("W-Azure V2", "Blox Fruits Script", function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+    DiscordLib:Notification("Notification", "W-azure v2 Hub Executed", "Okay!")
+end)
+
+Section:NewButton("Zekrom X", "Blox Fruits Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe", true))()
+    DiscordLib:Notification("Notification", "Zekrom X Hub Executed!", "Okay!")
+end)
+
+Section:NewButton("Redz Hub", "Blox Fruits Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/Main/main/redz9999"))()
+    DiscordLib:Notification("Notification", "Redz Hub Executed", "Okay!")
+end)
+
+-- PS99
+local PS99 = Window:NewTab("Pet Simulator 99")
+local Section = PS99:NewSection("Pet Simulator 99")
+
+Section:NewButton("Redz Hub", "Pet Simulator 99", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
+    DiscordLib:Notification("Notification", "Redz Hub Executed", "Okay!")
+end)
+
+Section:NewButton("Sky Hub", "Pet Simulator 99", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYHUB/main/WL.lua'))();
+    DiscordLib:Notification("Notification", "Sky Hub Executed", "Okay!")
+end)
+
+Section:NewButton("Zap Hub", "Pet Simulator 99", function()
+    loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
+    DiscordLib:Notification("Notification", "Zap Hub Executed", "Okay!")
+end)
