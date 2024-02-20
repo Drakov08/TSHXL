@@ -115,8 +115,8 @@ Section:NewButton("Cozmic DemonZ Hub", "Blade Ball Script", function()
 end)
 
 -- TSB
-local TSB = Window:NewTab("Strongest Battlegrounds...")
-local TSBsection = TSB:NewSection("Strongest Battlegrounds...")
+local TSB = Window:NewTab("Strongest Battlegroun...")
+local TSBsection = TSB:NewSection("Strongest Battlegroun...")
 
 Section:NewButton("Xtrey Hub", "Strongest battlegrounds Script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/saitama"))()
