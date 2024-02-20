@@ -115,30 +115,10 @@ Section:NewButton("Cozmic DemonZ Hub", "Blade Ball Script", function()
 end)
 
 -- TSB
-local TSB = Window:NewTab("Strongest Battlegrounds")
-local TSBsection = TSB:NewSection("Strongest Battlegrounds")
+local TSB = Window:NewTab("Strongest Battlegrounds...")
+local TSBsection = TSB:NewSection("Strongest Battlegrounds...")
 
-Section:NewButton("Xtrey10x Hub", "The Strongest Battlegrounds Script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/saitama"))()
-    DiscordLib:Notification("Notification", "Xtrey10x Hub Executed", "Okay!")
-end)
-
-Section:NewButton("Nex Hub", "The Strongest Battlegrounds Script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader", true))()
-    DiscordLib:Notification("Notification", "Nex Hub Executed", "Okay!")
-end)
-
-Section:NewButton("Beamed Ware Hub", "The Strongest Battlegrounds Script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/RYZZCHIPSX/ryzzchips/main/beamed%20ware%20script"))();
-    DiscordLib:Notification("Notification", "Beamed Ware Hub Executed", "Okay!")
-end)
-
-Section:NewButton("Reaper Hub", "The Strongest Battlegrounds Script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/AyoReaper/Reaper-Hub/main/loader.lua"))()
-    DiscordLib:Notification("Notification", "Reaper hub Executed", "Okay!")
-end)
-
-Section:NewButton("Nicuse Hub", "The Strongest Battlegrounds Script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/SaitamaBattlegrounds.lua"))()
-    DiscordLib:Notification("Notification", "Nicuse Hub Executed", "Okay!")
+Section:NewButton("Xtrey Hub", "Strongest battlegrounds Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/saitama'))()
+    DiscordLib:Notification("Notification", "Executed", "Okay!")
 end)
