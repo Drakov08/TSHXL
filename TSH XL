@@ -113,3 +113,16 @@ Section:NewButton("Cozmic DemonZ Hub", "Blade Ball Script", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/RealGOODNINJA/ZaaaIsTheGoat/main/HiZaaaa'))()
     DiscordLib:Notification("Notification", "Cozmic DemonZ Hub Executed", "Okay!")
 end)
+
+
+-- TSB
+local TSB = Window:NewTab("Strongest Battlegrounds")
+local Section = TSB:NewSection("Strongest Battlegrounds")
+
+Section:NewButton("Xtrey hub", "Strongest battlegrounds Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/saitama"))()
+    DiscordLib:Notification("Notification", "Xtrey Hub Executed", "Okay!")
+end)
+
+
+
