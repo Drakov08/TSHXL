@@ -3,8 +3,12 @@ local quake = loadstring(game:HttpGet("https://raw.githubusercontent.com/idontha
 -- quake
 
 
+local window = quake:Window({
+    Title = "Thr Script Haven" -- string
+})
+
 windowName:Tab({
-Name = “The Script Haven”,
+Name = “TSH”,
 Color = Color3,
 Icon = “” -- rbxassetid
 })
