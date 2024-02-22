@@ -1,14 +1,13 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+-- quake
+local quake = loadstring(game:HttpGet("https://raw.githubusercontent.com/idonthaveoneatm/Libraries/normal/quake/src"))()
+-- quake
 
-local Window = Rayfield:CreateWindow({
-    Name = "TSH XL V2",
-    LoadingTitle = "The Script Haven",
-    LoadingSubtitle = "by TSH Devs",
-    ConfigurationSaving = {
-       Enabled = true,
-       FolderName = TSHXLV2, -- Create a custom folder for your hub/game
-       FileName = "TSH HUB"
-    },
+
+windowName:Tab({
+Name = “The Script Haven”,
+Color = Color3,
+Icon = “” -- rbxassetid
+})
     Discord = {
        Enabled = true,
        Invite = "nvkPCuen4G", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
