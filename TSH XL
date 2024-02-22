@@ -1,15 +1,6 @@
--- quake
 local quake = loadstring(game:HttpGet("https://raw.githubusercontent.com/idonthaveoneatm/Libraries/normal/quake/src"))()
--- quake
 
-local window = quake:Window({
+            
+ local window = quake:Window({
     Title = "The Script Haven" -- string
 })
-
-windowName:Tab({
-Name = “TSH”,
-Color = Color3,
-Icon = “” -- rbxassetid
-})
-            
- 
