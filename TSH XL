@@ -48,7 +48,7 @@ local quake = loadstring(game:HttpGet("https://raw.githubusercontent.com/idontha
  local button = tab:Button({
     Name = "Redz Hub", -- string
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/Main/main/redz9999"))()
+        loadstring(game:HttpGet("https://scriptblox.com/raw/GHOST-Blox-Fruits-REDz-HUB-Auto-Farm-Level-and-more-9198"))()
         DiscordLib:Notification("Notification", "Redz Hub Executed", "Okay!")
     end
  })
