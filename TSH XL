@@ -2,62 +2,62 @@
 local quake = loadstring(game:HttpGet("https://raw.githubusercontent.com/idonthaveoneatm/Libraries/normal/quake/src"))()
 -- quake
 
-local window = quake:Window({
+ local window = quake:Window({
     Title = "The Script Haven" -- string
-})
+ })
 
 
-local tab = window:Tab({
+ local tab = window:Tab({
     Name = "Blox Fruits", -- string
     tabColor = Color5, -- fromHex fromRGB fromHSV
     Image = "13370978128" -- rbxassetid
-})
+ })
 
-local button = tab:Button({
+ local button = tab:Button({
     Name = "MTriet Hub", -- string
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
         DiscordLib:Notification("Notification", "MTriet Hub Executed", "Okay!")
     end
-})
+ })
 
-local button = tab:Button({
+ local button = tab:Button({
     Name = "Vector Hub", -- string
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
         DiscordLib:Notification("Notification", "Vector Hub Executed", "Okay!")
     end
-})
+ })
 
-local button = tab:Button({
+ local button = tab:Button({
     Name = "W-Azure V2", -- string
     Callback = function()
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
         DiscordLib:Notification("Notification", "W-azure v2 Hub Executed", "Okay!")
     end
-})
+ })
 
-local button = tab:Button({
+ local button = tab:Button({
     Name = "Zekrom X", -- string
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe", true))()
         DiscordLib:Notification("Notification", "Zekrom X Hub Executed!", "Okay!")
     end
-})
+ })
 
-local button = tab:Button({
+ local button = tab:Button({
     Name = "Redz Hub", -- string
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/Main/main/redz9999"))()
         DiscordLib:Notification("Notification", "Redz Hub Executed", "Okay!")
     end
-})
+ })
 
-local tab = window:Tab({
+ local tab = window:Tab({
     Name = "Pet Sim 99", -- string
     tabColor = Color5, -- fromHex fromRGB fromHSV
     Image = "" -- rbxassetid
-})
+ })
 
  local button = tab:Button({
     Name = "Redz Hub",
@@ -83,11 +83,11 @@ local tab = window:Tab({
     end,
  })
 
-local tab = window:Tab({
+ local tab = window:Tab({
     Name = "Blade Ball", -- string
     tabColor = Color5, -- fromHex fromRGB fromHSV
     Image = "" -- rbxassetid
-})
+ })
 
  local button = tab:Button({
     Name = "Bedol Hub",
@@ -185,11 +185,11 @@ local tab = window:Tab({
     end,
  })
 
-local tab = window:Tab({
+ local tab = window:Tab({
     Name = "Strongest Battlegrounds", -- string
     tabColor = Color5, -- fromHex fromRGB fromHSV
     Image = "" -- rbxassetid
-})
+ })
  
  local button = tab:Button({
     Name = "Xtrey hub",
@@ -231,11 +231,11 @@ local tab = window:Tab({
     end,
  })
 
-local tab = window:Tab({
+ local tab = window:Tab({
     Name = "Anime Champ Sim", -- string
     tabColor = Color5, -- fromHex fromRGB fromHSV
     Image = "13370978128" -- rbxassetid
-})
+ })
 
  local button = tab:Button({
     Name = "Sky Hub",
@@ -269,11 +269,11 @@ local tab = window:Tab({
     end,
  })
  
-local tab = window:Tab({
+ local tab = window:Tab({
     Name = "King Legacy", -- string
     tabColor = Color5, -- fromHex fromRGB fromHSV
     Image = "" -- rbxassetid
-})
+ })
 
  local button = tab:Button({
     Name = "Hyper Hub",
@@ -324,11 +324,11 @@ local tab = window:Tab({
  })
 
 
-local tab = window:Tab({
+ local tab = window:Tab({
     Name = "Bee Swarm Simulator", -- string
     tabColor = Color5, -- fromHex fromRGB fromHSV
     Image = "" -- rbxassetid
-})
+ })
 
  local button = tab:Button({
     Name = "Dragonic Hub",
@@ -373,11 +373,11 @@ local tab = window:Tab({
  })
 
 
-local tab = window:Tab({
+ local tab = window:Tab({
     Name = "Murder Mystery 2", -- string
     tabColor = Color5, -- fromHex fromRGB fromHSV
     Image = "" -- rbxassetid
-})
+ })
 
  local button = tab:Button({
     Name = "Lunar Hub",
@@ -419,13 +419,14 @@ local tab = window:Tab({
     end,
  })
 
-local Tab = Window:CreateTab("Legends Of Speed")
+ local Tab = Window:CreateTab("Legends Of Speed")
 
-local tab = window:Tab({
+ local tab = window:Tab({
     Name = "Legends Of Speed", -- string
     tabColor = Color5, -- fromHex fromRGB fromHSV
     Image = "" -- rbxassetid
-})
+ })
+ 
  local button = tab:Button({
     Name = "LOS Script",
     Callback = function()
@@ -435,9 +436,9 @@ local tab = window:Tab({
  })
 
  local button = tab:Button({
-Name = "Speed Hub X",
-Callback = Function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/SpeedHubX"))()
-       DiscordLib:Notification("Notification", "Executes Speed Hub X", "Okay!")
-  end,
-})
+    Name = "Speed Hub X", -- string
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/SpeedHubX"))()
+        DiscordLib:Notification("Notification", "Executes Speed Hub X", "Okay!")
+    end
+ })
